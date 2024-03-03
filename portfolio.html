@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio de Aplicativos</title>
+  <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <style>
+    body {
+      font-family: 'Play', sans-serif;
+      background: linear-gradient(to bottom, #000000 0%, #0d0d0d 50%, #000000 100%);
+      color: orange;
+    }
+.presentation {
+    background-color: linear-gradient(to bottom, #000000 0%, #0d0d0d 50%, #000000 100%);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    }
+    .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    }
+    .social-icons {
+    margin-top: 20px;
+    }
+    .social-icons a {
+    color: orange;
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+    }
+    .links {
+      padding: 50px;
+      text-align: center;
+    }
+    .gallery {
+      padding: 50px;
+      text-align: center;
+    }
+    .certificate {
+      width: 200px;
+      height: 200px;
+      margin: 10px;
+      border: 2px solid orange;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+  
+  <!-- Presentation Section -->
+  <section class="presentation">
+    <div class="container">
+      <h1>Portfolio</h1>
+      <p>Bem-vindo ao meu portfolio de sites web! Aqui você encontrará informações sobre meus projetos e conquistas na área de desenvolvimento.</p>
+    </div>
+
+    <div class="presentation">
+        <h1>Renan da Silva Aragao</h1>
+        <img src="profile-pic.jpg" alt="Foto de Perfil" class="profile-pic">
+        <div class="social-icons">
+          <a href="https://wa.me/seunumerodetelefone" target="_blank"><i class="fab fa-whatsapp"></i></a>
+          <a href="mailto:seuemail@example.com"><i class="fas fa-envelope"></i></a>
+          <a href="https://www.instagram.com/seuusuario/" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/seuperfil/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/seuusuario" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+    </div>
+  </section>
+
+  <!-- Links Section -->
+  <section class="links">
+    <div class="container">
+      <h2>Meus Projetos</h2>
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-content">
+              <span class="card-title">App 1</span>
+              <p>Descrição do App 1.</p>
+            </div>
+            <div class="card-action">
+              <a href="#">Link para o App 1</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-content">
+              <span class="card-title">App 2</span>
+              <p>Descrição do App 2.</p>
+            </div>
+            <div class="card-action">
+              <a href="#">Link para o App 2</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card">
+            <div class="card-content">
+              <span class="card-title">App 3</span>
+              <p>Descrição do App 3.</p>
+            </div>
+            <div class="card-action">
+              <a href="#">Link para o App 3</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="gallery">
+    <div class="container">
+      <h2>Certificados</h2>
+      <div class="certificate"><img src="certificate1.jpg" alt="Certificado 1"></div>
+      <div class="certificate"><img src="certificate2.jpg" alt="Certificado 2"></div>
+      <div class="certificate"><img src="certificate3.jpg" alt="Certificado 3"></div>
+      <!-- Adicione mais divs com certificados conforme necessário -->
+    </div>
+  </section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script> 
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      M.AutoInit();
+    });
+  </script>
+</body>
+</html>
